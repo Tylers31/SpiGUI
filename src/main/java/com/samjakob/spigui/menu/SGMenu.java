@@ -98,7 +98,10 @@ public class SGMenu implements InventoryHolder {
      */
     private static final ClickType[] DEFAULT_PERMITTED_MENU_CLICK_TYPES = new ClickType[]{
             ClickType.LEFT,
-            ClickType.RIGHT
+            ClickType.RIGHT,
+            ClickType.MIDDLE,
+            ClickType.SHIFT_LEFT
+        
     };
 
     /**
